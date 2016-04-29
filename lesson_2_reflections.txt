@@ -1,0 +1,14 @@
+When I initialized a repository it created a hidden file named .git. 
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+Answer: Working directory is the file which I study on and save the files I study on. 
+By commiting git (git init) them we are creating a repository which is able to upload to git iste
+felan filan.
+Staging area is using for adding some files on existing file. I mean that you do not need to 
+add extra file on existing file one by one. Istedigin kadar ekle (git add) 
+sonra tek bir comment ile repository
+de eklersin. kapis?
+
+iste oyle
