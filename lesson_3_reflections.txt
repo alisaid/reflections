@@ -1,0 +1,11 @@
+Sharing changes on GitHub (reflection file):
+- Create a reflections repository on GitHub (When u create a repository on GitHub, it will give u a link
+  to push an existing repository from the command line)
+  
+- Push your reflections to GitHub ($ git remote add [name(bir origin dedik)] [link]) then 
+  $ git push [name(origin)] master.
+
+- You can create or change a file using GitHub. After doing changes you can update the file on your computer
+  as well doing $ git pull [name(origin)] master.
+
+- For now, I do not know how to merge!

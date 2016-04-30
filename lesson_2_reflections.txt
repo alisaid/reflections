@@ -32,12 +32,7 @@ sometimes git does not merge the file. It wants you to check the file and and wr
 orjinal dosya belli tamam mi. ayni adda iki dosya olusturuyon ikisi de birbirinden farkli dogal olarak uc dosya
 elinde olmus oluyor ve ucu de birbirinden farkli. birseye karar ver diyor, adam ol lan diyor. :)
 
-Sharing changes on GitHub (reflection file):
-- Create a reflections repository on GitHub (When u create a repository on GitHub, it will give u a link
-  to push an existing repository from the command line)
-  
-- Push your reflections to GitHub ($ git remote add [name(bir origin dedik)] [link]) then 
-  $ git push [name(origin)] master.
+
 
 
 iste oyle
