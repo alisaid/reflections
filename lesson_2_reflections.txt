@@ -11,4 +11,33 @@ add extra file on existing file one by one. Istedigin kadar ekle (git add)
 sonra tek bir comment ile repository
 de eklersin. kapis?
 
+In order to commit, if u want first check the changes (git status). (by doing this, you will see that which file
+have been changed.) If you do not remember what the changes inside the files, do not worry, you check it by doing 
+"git diff". Then, I think you should (or u can, not sure) add the changed file in the repository (git add [file name]). 
+In order to add a commit on my computer, first you should configure you name and email by doing 
+$ git config user.name "Ali Said"
+$ git config user.email "alisaid@hotmail.com"
+then commit by
+$ git commit -m "add delay back to bullets"
+
+branch ekleme:
+
+first doing "git branch" learn which branches we have. then by doing git branch "vermek istedigin branch name"
+you can add a new branch. If you want to study with the new branch do "git checkout [branch name]".
+farkli branch da calismak istedigin degisikligi, deneme yanilma yollarini rahatca yapabilmene olanak saglar.
+
+In order to combine two branches use "git merge [branch name1] [branch name2]"
+
+sometimes git does not merge the file. It wants you to check the file and and write the correct one. yani simdi 
+orjinal dosya belli tamam mi. ayni adda iki dosya olusturuyon ikisi de birbirinden farkli dogal olarak uc dosya
+elinde olmus oluyor ve ucu de birbirinden farkli. birseye karar ver diyor, adam ol lan diyor. :)
+
+Sharing changes on GitHub (reflection file):
+- Create a reflections repository on GitHub (When u create a repository on GitHub, it will give u a link
+  to push an existing repository from the command line)
+  
+- Push your reflections to GitHub ($ git remote add [name(bir origin dedik)] [link]) then 
+  $ git push [name(origin)] master.
+
+
 iste oyle
